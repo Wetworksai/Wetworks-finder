@@ -12,6 +12,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700;800&family=Inter:wght@400;500;600;700;800;900&family=Orbitron:wght@600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+      // Ensure trailing slash on GitHub Pages project URLs so relative assets resolve properly
+      if (location.pathname.length > 1 && !location.pathname.endsWith('/') && !location.pathname.split('/').pop().includes('.')) {
+        location.replace(location.pathname + '/' + location.search + location.hash);
+      }
+    </script>
   </head>
   <body class="bg-neutral-100 text-neutral-900 antialiased selection:bg-amber-300 selection:text-black overflow-x-hidden">
     <div id="root"></div>
