@@ -4,10 +4,11 @@ import TernaryCodeCanvas from './components/TernaryCodeCanvas.tsx';
 import ContactModal from './components/ContactModal.tsx';
 import eraseBgLogo from './assets/images/erasebg-transformed.png';
 import bgImage from './assets/images/Bg.png';
+import marbleTexture from './assets/images/marble_grunge_bg_1791172878650.jpg';
 
 // Visual assets
 const ROBOT_HUMAN_HANDS = bgImage;
-const MARBLE_TEXTURE = '/src/assets/images/marble_grunge_bg_1791172878650.jpg';
+const MARBLE_TEXTURE = marbleTexture;
 const DRAGONFLY_LOGO = eraseBgLogo;
 
 export default function App() {
