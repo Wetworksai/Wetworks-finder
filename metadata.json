@@ -1,0 +1,6 @@
+{
+  "name": "WetWorksAi",
+  "description": "The New Heirarchy of Artificial Intelligence - Official Placeholder Website",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
